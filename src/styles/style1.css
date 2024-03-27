@@ -1,0 +1,259 @@
+table {
+  width: 80%;
+  background-color: #e4eaed;
+
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 3px solid black;
+
+    border-radius: 5px;
+
+
+    @media screen and (max-width:435px){
+      /* width: 60%; */
+      margin-left: 0px;
+      margin-right: 60px;
+    }
+
+
+    
+    
+}
+
+
+th {
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: large;
+  font-style: normal;
+  font-stretch: expanded;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 7px;
+
+  
+}
+td {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    padding: 3px 4px 3px 4px;
+    font-weight: 440;
+
+    
+}
+
+
+
+
+
+
+
+
+
+option{
+  cursor: pointer;
+  background-color: gainsboro;
+}
+
+.stats{
+  margin-top: 25px;
+  display: block;
+  /* display: flex; */
+  /* display: contents; */
+  margin-left: 560px;
+ font-size: 27px;
+ font-weight: 500;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ @media only screen and (max-width: 435px)  {
+  margin-left: 150px;
+  font-size: 22px;
+  font-weight: 350;
+
+  margin-top: 35px;
+
+
+}
+
+
+
+/* @media screen and (max-width:390px) {
+
+  margin-left: 220px;
+  font-size: 16px;
+  font-weight: 400;
+
+  margin-top: 35px;
+  
+} */
+
+}
+
+.newselect{
+  margin-top: 80px;
+
+  
+
+
+  
+}
+
+/* .span1{
+  margin-left: 47px;
+ 
+  @media only screen and (max-width: 435px)  {
+
+    margin-left: -30px;
+    
+  }
+
+  /* @media screen and (max-width:390px) {
+
+    margin-left: -46px;
+  } */
+/* } */
+
+/* .span2{
+  margin-left: 75px;
+  @media only screen and (max-width: 435px)  {
+
+    margin-left: -3px;
+    
+  }
+
+ 
+}
+.span3{
+  margin-left: 30px;
+  @media only screen and (max-width: 435px)  {
+    margin-left: -12px;
+    
+  }
+} */ 
+
+
+
+.p1{
+
+
+  @media only screen and (max-width: 435px)  {
+ 
+    margin-left: -30px;
+    
+  }
+
+
+}
+
+.p2{
+
+  
+  @media only screen and (max-width: 435px)  {
+ 
+    margin-left: -1px;
+    
+  }
+
+
+}
+
+.p3{
+
+  
+  @media only screen and (max-width: 435px)  {
+ 
+    margin-left: -9px;
+    
+  }
+
+
+}
+
+.span1{
+
+  @media only screen and (max-width: 435px)  {
+ 
+    margin-left: -1px;
+    
+  }
+
+
+}
+
+
+.barchart{
+  width: 70%;
+  height: 450px;
+  margin-left: 320px;
+  margin-top: 30px;
+
+
+  @media only screen and (max-width: 435px)  {
+    margin-left: 160px;
+    width: 80%; 
+    height: 550px;
+    margin-top: 60px;
+    
+  }
+
+
+  
+}
+
+.pieselect{
+
+  margin-top: 60px;
+  @media only screen and (max-width: 435px)  {
+    margin-top: -270px;
+    
+  }
+
+}
+
+.Piechartstyle{
+
+  width: 50%;
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 620px;
+
+  @media only screen and (max-width: 435px)  {
+
+    
+  height: 400px;
+  margin-top: 40px;
+  margin-left: 230px;
+
+   
+    
+  }
+  
+}
+
+select{
+  padding: 8px;
+  font-size: 19px;
+  font-weight: 700;
+  border: 3px solid black;
+  background-color: #ede0bb;
+  border-radius: 4px;
+  margin-top: 30px;
+
+  margin-left: 650px;
+
+  @media screen and (max-width:435px){
+    padding: 7px;
+    font-size: 17px;
+    margin-left: 230px;
+  }
+
+
+}

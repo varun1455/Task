@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import DisplayData from './components/DisplayData';
+import Transactions from './components/Transactions';
+import TransactionStatics from './components/TransactionStatics';
+import BarChartStats from './components/BarChartStats';
+import Piedata from './components/Piedata';
+// import SelectOptions from './components/SelectOptions';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <SelectOptions/> */}
+    <Transactions/>
+    <TransactionStatics/>
+    <BarChartStats/>
+    {/* <DisplayData/> */}
+    <Piedata/>
+        </>
   );
 }
 
