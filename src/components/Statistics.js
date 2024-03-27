@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import StatisticsData from "./StatisticsData";
+import StatisticsData from "./Statistics2";
 
-function TransactionStatics() {
+function Statics() {
   const [fetchData1, setFetchData1] = useState([]);
   const [fetchData2, setFetchData2] = useState([]);
   const [fetchData3, setFetchData3] = useState([]);
@@ -80,4 +80,4 @@ function TransactionStatics() {
   );
 }
 
-export default TransactionStatics;
+export default Statics;

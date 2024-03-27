@@ -1,6 +1,7 @@
 import React, { useState, useEffect} from "react";
-import TransactionsData from "./TransactionsData";
+
 import '../styles/style1.css'
+import Transactions2 from "./Transactions2";
 
 function Transactions() {
 
@@ -68,7 +69,7 @@ function Transactions() {
         </thead>
 
         <tbody>
-          <TransactionsData c={monthlydata} v={selectedValue}/>
+          <Transactions2 c={monthlydata} v={selectedValue}/>
         </tbody>
       </table>
     </>

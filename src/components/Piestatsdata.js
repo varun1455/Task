@@ -3,7 +3,7 @@ import PieStats1 from './PieStats1';
 
 import '../styles/style1.css'
 
-function Piedata() {
+function Piestatsdata() {
 
 
     const [categorydata, setCategorydata] = useState([]);
@@ -67,4 +67,4 @@ function Piedata() {
   )
 }
 
-export default Piedata
+export default Piestatsdata

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/style1.css";
 
-function TransactionsData({ c, v }) {
+function Transactions2({ c, v }) {
   const [filteredData, setFilteredData] = useState([]);
   // console.log(v);
 
@@ -40,4 +40,4 @@ function TransactionsData({ c, v }) {
   );
 }
 
-export default TransactionsData;
+export default Transactions2;
