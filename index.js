@@ -8,7 +8,7 @@ const cors = require('cors')
 const dotenv = require('dotenv')
 
 
-const dataRoute = require('../Routes/FetchingData');
+const dataRoute = require('./Routes/FetchingData');
 
 const corsOptions = {
     origin:'*', 
