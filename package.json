@@ -4,7 +4,7 @@
   "description": "backend Task",
   "main": "index.js",
   "scripts": {
-    "start": "export PATH=/opt/render/project/src/index/node_modules/.bin:$PATH && npm start",
+    "start": "nodemon index.js",
     "build":"npm i"
   },
   "author": "Varun",
