@@ -4,10 +4,12 @@
   "description": "backend Task",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "build":"npm i"
   },
   "author": "Varun",
   "license": "ISC",
+  "bin" : { "execute" : "index.js" },
   "dependencies": {
     "axios": "^1.6.7",
     "body-parser": "^1.20.2",
