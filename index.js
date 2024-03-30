@@ -79,7 +79,7 @@ app.use("/display", dataRoute);
 
 
 
-app.listen(8000, ()=>{
+app.listen(process.env.BASE_URL, ()=>{
     console.log("server is listening")
 })
 
