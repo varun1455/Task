@@ -10,7 +10,7 @@ function Piestatsdata() {
 
     useEffect(()=>{
         const fetchData = async() =>{
-            const response = await fetch('http://localhost:8000/display/category/month', {
+            const response = await fetch('https://task-12-t3n5.onrender.com/display/category/month', {
                 method:"GET",
                 headers:{
                     accept:"application/json",

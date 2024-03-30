@@ -8,9 +8,9 @@ function Statics() {
 
   useEffect(() => {
     const fetchALlUrls = [
-      "http://localhost:8000/display/saleAmount/month",
-      "http://localhost:8000/display/solditems/month",
-      "http://localhost:8000/display/unsolditems/month",
+      "https://task-12-t3n5.onrender.com/display/saleAmount/month",
+      "https://task-12-t3n5.onrender.com/display/solditems/month",
+      "https://task-12-t3n5.onrender.com/display/unsolditems/month",
     ];
 
     const fetchalldata = async () => {

@@ -6,7 +6,7 @@ function BarChartStats() {
     const [newdata, setNewdata] = useState([]);
     useEffect(()=>{
         const fetchbardata = async() => {
-            const response = await fetch('http://localhost:8000/display/priceRangeMonth',
+            const response = await fetch('https://task-12-t3n5.onrender.com/display/priceRangeMonth',
           { method: "GET",
           headers:{
             accept : "application/json",
